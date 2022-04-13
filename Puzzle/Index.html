@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puzzle Shop</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<style>
+
+body, h2, a,{	
+	font-family: "Montserrat", sans-serif;
+} 
+
+.fotos {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+	</style>
+
+	</head>
+
+	<body>
+
+<div id="barra-verde">
+</div>
+
+<header>
+<div class="w3-hide-small w3-hide-medium">
+<div id="pesquisa">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form class="example" action="action_page.php">
+<button type="submit"><i class="fa fa-search"></i></button>
+<input type="text" placeholder="O que você procura?" name="search">
+</form>
+</div> 
+</div>
+	</header>
+
+<div id="logo">
+<nav>
+<div class="w3-row w3-hide-small">
+<div class="logo w3-col m12 l2 w3-center"><a href="index.html"><img src="imagens/logo.png"></a>
+</div>
+
+<div id="menu">
+<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="index.html"><h2>Home</h2></div></a>
+<div class="w3-dropdown-hover">
+<button class="w3-button m2 l2 w3-hover-green w3-center"><a href="produtos.html"><h2>Produtos</h2></button></a>
+<div class="w3-dropdown-content w3-padding">
+<a href="canecas.html" class="w3-bar-item w3-button w3-hover-green">Canecas</a>
+<a href="quadros.html" class="w3-bar-item w3-button w3-hover-green">Quadros</a>
+<a href="squeezes.html" class="w3-bar-item w3-button w3-hover-green">Squeezes</a> 
+</div>
+</div>
+<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="como-comprar.html"><h2>Como comprar</h2></div></a>
+<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="bastidores.html"><h2>Bastidores</h2></div></a>
+<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="sobre-a-puzzle.html"><h2>Sobre a Puzzle</h2></a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="banner-rotativo" class="w3-content w3-hide-small w3-display-container w3-center" style="max-width:1600px">
+<img class="fotos w3-animate-opacity w3-round-xxlarge" src="imagens/bannershawn.png" style="width:100%">
+<img class="fotos w3-animate-opacity w3-round-xxlarge" src="imagens/bannerharry.png" style="width:100%">
+<img class="fotos w3-animate-opacity w3-round-xxlarge" src="imagens/bannerkaty.png" style="width:100%">
+<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+<div class="w3-left w3-hover-text-green" onclick="plusDivs(-1)">&#10094;</div>
+<div class="w3-right w3-hover-text-green" onclick="plusDivs(1)">&#10095;</div>
+<span class="w3-badge demo w3-border w3-transparent w3-hover-green" onclick="currentDiv(1)"></span>
+<span class="w3-badge demo w3-border w3-transparent w3-hover-green" onclick="currentDiv(2)"></span>
+<span class="w3-badge demo w3-border w3-transparent w3-hover-green" onclick="currentDiv(3)"></span>
+</div>
+</div>
+</div>
+
+<script src="java/functions.java"></script>
+
+<div id="produtos-miniaturas">
+<div class=" w3-hide-small w3-col l4 w3-third w3-center"><a href="canecas.html"><img src="imagens/caneca.png" style="width:50%"></div></a>	
+<div class=" w3-hide-small w3-col l4 w3-third w3-center"><a href="quadros.html"><img src="imagens/quadro.png" style="width:50%"></div></a>
+<div class=" w3-hide-small w3-col l4 w3-third w3-center"><a href="squeezes.html"><img src="imagens/squeeze.png" style="width:50%"></div></a>
+</div>
+
+<div class="video w3-hide-small">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cZbM7eniyV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+
+
+
+<div id="celular">
+<div id="logo">
+<br>
+<div class="w3-row w3-mobile w3-hide-large w3-hide-medium">
+<div class="w3-col s12 w3-center"><a href="index.html"><img src="imagens/logo.png" style="width:40%"></a>
+</div>
+</div>
+
+<div class="w3-mobile w3-hide-large w3-hide-medium">
+<div id="pesquisa">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form class="example" action="action_page.php">
+<button type="submit"><i class="fa fa-search"></i></button>
+<input type="text" placeholder="O que você procura?" name="search">
+</form>
+</div> 
+</div>
+<br>
+<br>
+
+<div id="menu-celular">
+<div class=" w3-bar-block w3-hide-large w3-hide-medium " style="width:100%;">
+<a href="index.html" class="w3-bar-item w3-center w3-button w3-hover-green">Home</a>
+<button class="w3-button w3-block w3-center w3-hover-green w3-left-align" onclick="myAccFunc()">
+ Produtos <i class="fa fa-caret-down"></i>
+</button>
+<div id="demoAcc" class="w3-hide w3-white w3-light-grey">
+    <a href="#" class="w3-bar-item w3-center w3-button w3-hover-green">Canecas</a>
+    <a href="#" class="w3-bar-item w3-center w3-button w3-hover-green">Quadros</a>
+    <a href="#" class="w3-bar-item w3-center w3-button w3-hover-green">Squeezes</a>
+  </div>
+    <a href="#" class="w3-bar-item w3-center w3-hover-green w3-button">Como comprar</a>
+    <a href="#" class="w3-bar-item w3-center w3-hover-green w3-button">Bastidores</a>
+    <a href="#" class="w3-bar-item w3-center w3-hover-green w3-button">Sobre a Puzzle</a>
+</div>
+<br>
+<div id="bannershawncelular">
+<div class="w3-col l12 w3-hide-large w3-hide-medium w3-round w3-center"><img src="imagens/bannershawncelular.png" style="width:80%"></div> 
+<br>
+<div id="produtos-miniaturas-celular">
+<div class="miniaturas-ss w3-hide-large w3-hide-medium w3-col w3-third w3-center"><a href="canecas.html"><img src="imagens/caneca.png" style="width:45%"></div></a>	
+<div class="miniaturas-s w3-hide-large w3-hide-medium w3-col w3-third w3-center"><a href="quadros.html"><img src="imagens/quadro.png" style="width:45%"></div></a>
+<div class="miniaturas-s w3-hide-large w3-hide-medium w3-col w3-third w3-center"><a href="squeezes.html"><img src="imagens/squeeze.png" style="width:45%"></div></a>
+</div>
+</div>
+
+<div class="video-s w3-hide-medium w3-hide-large w3-mobile">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/cZbM7eniyV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+
+</div>
+</div>
+
+</nav>
+
+<footer class="w3-padding">
+
+<div id="rodape">
+<div id="redes-sociais">  
+</div>
+<div class="w3-col s2 m1 l1"><img src="imagens/instagram.png" style="width:70%"> </div>
+<div class="w3-col s2 m1 l1"><img src="imagens/facebook.png" style="width:70%"></div>
+<div class="w3-col s2 m1 l1"><img src="imagens/twitter.png" style="width:70%"></div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

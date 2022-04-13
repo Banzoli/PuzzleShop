@@ -1,0 +1,116 @@
+*{margin:0;}
+
+form {
+    padding: 0.3em;
+    text-align:center;
+	margin-top: 25px;
+}
+
+form input, form button {
+	margin-top: %;
+    font-size: 20px;
+    border-radius: 0.2em;
+    border: gray;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    font-size: 30px;
+    background: none;
+    color: black;
+    border-color: #00B52A;
+}
+
+form button:hover {
+	height:40px;
+    color: #00B52A;
+}
+
+form input  {
+	height:40px;
+	border: 1px solid gray;
+	text-align: center;
+	border-radius: 30px 30px 30px 30px;
+}
+
+#barra-verde {
+	background-color:#00B52A;
+	width: 100%;
+	height:45px;
+}
+
+#pesquisa {
+	height:40px;
+}
+#logo {
+	margin-left: 5%;
+}
+
+#logo a{
+	text-decoration: none;
+}
+
+#menu {
+	font-family:Montserrat, sans-serif;
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+
+#banner-rotativo {	
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:5%;
+}
+
+div.video {
+	margin: 0px -20px  30px -20px;
+	padding: 20px;
+	padding-bottom: 55%;
+	position: relative;
+}
+
+div.video > iframe {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+
+}
+
+#produtos-miniaturas  {
+	padding-bottom: 400px;
+}
+
+#rodape {
+	background-color:#00B52A;
+	width: 100%;
+	height:300px;
+	padding: 2%;
+}
+
+#redes-sociais {
+	margin-top: 3%;
+}
+
+#banner { 
+	border-radius: 30px 30px 30px 30px
+}
+
+#menu-celular {
+	font-size: 20px;
+}
+
+.miniaturas-s {
+	padding-top: 60px;
+}
+
+.miniaturas-ss {
+	padding-top: 5px;
+}
+
+.video-s{
+	padding-top: 1150px;
+}
