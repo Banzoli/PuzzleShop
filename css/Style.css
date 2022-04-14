@@ -47,6 +47,7 @@ form input  {
 #pesquisa {
 	height:40px;
 }
+
 #logo {
 	margin-left: 5%;
 }
@@ -57,8 +58,9 @@ form input  {
 
 #menu {
 	font-family:Montserrat, sans-serif;
-	margin-top: 5%;
+	margin-top: 4%;
 	margin-left: 20%;
+	margin-bottom: 25px;
 }
 
 
@@ -95,20 +97,28 @@ div.video > iframe {
 	padding: 2%;
 }
 
+#informações {
+	margin-top: 2%;
+}
+
 #redes-sociais {
-	margin-top: 3%;
+	margin-top: 4%;
 }
 
 #banner { 
 	border-radius: 30px 30px 30px 30px
 }
 
-#menu-celular {
-	font-size: 20px;
-}
-
 .produtos-miniaturas-s {
 	padding-bottom: 150px;
+}
+
+.produtos-miniaturas-m {
+	padding-bottom: 250px;
+}
+
+.produtos-miniaturas-ss {
+	padding-bottom: 200px;
 }
 
 .ps {
@@ -132,7 +142,6 @@ div.video-m > iframe {
 	left: 5%;
 	width: 90%;
 	height: 30%;
-
 }
 
 .texto-cc {
@@ -144,17 +153,12 @@ div.video-m > iframe {
 	margin-top: -40px;
 }
 
-#foto-redonda {
-	margin-bottom: 20px;
-	margin-top: -100px;
-}
-
 #produtos-miniaturas-sp {
 	margin-bottom: 400px;
 }
 
 .texto-cc {
-	margin: 150px 50px 50px 50px;
+	margin: 50px 50px 50px 50px;
 }
 
 #rodape-p {
@@ -167,6 +171,7 @@ div.video-m > iframe {
 
 .texto-video {
 	font-size: xx-large;
+	padding-bottom: 50px;
 }
 
 .vendas{
@@ -176,3 +181,14 @@ div.video-m > iframe {
 .vendas-s{
 	padding-bottom: 50px;
 }
+
+#espaço-bastidores {
+	padding-bottom: 250px;
+}
+
+.produtos-ajuste {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+

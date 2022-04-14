@@ -14,7 +14,7 @@
 
 	<style>
 
-body, h1, h2, a,{	
+body, h2, a,{	
 	font-family: "Montserrat", sans-serif;
 } 
 
@@ -28,7 +28,8 @@ body, h1, h2, a,{
 
 	<body>
 
-<div class="barra-verde w3-hide-small"></div>
+<div class="barra-verde w3-hide-small w3-hide-medium"></div>
+
 <header>
 <div class="w3-hide-small w3-hide-medium">
 <div id="pesquisa">
@@ -42,42 +43,32 @@ body, h1, h2, a,{
 </div>
 	</header>
 
+	<nav>
+
 <div id="logo">
-<nav>
-<div class="w3-row w3-hide-small">
-<div class="logo w3-col m12 l2 w3-center"><a href="index.html"><img src="imagens/logo.png"></a>
-</div>
-
-<div class="ps w3-hide-small w3-hide-large">
-<div id="pesquisa">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<form class="example" action="action_page.php">
-<button type="submit"><i class="fa fa-search"></i></button>
-<input type="text" placeholder="O que você procura?" name="search">
-</form>
-</div> 
+<div class="w3-row w3-hide-small w3-hide-medium">
+<div class="logo w3-col m1 l2 w3-center"><a href="index.html"><img src="imagens/logo3.png"></a>
 </div>
 
 <div id="menu">
-<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="index.html"><h2>Home</h2></div></a>
+<div class="w3-bar-item m1 l2 w3-button w3-hover-green w3-center"><a href="index.html"><h2>Home</h2></div></a>
 <div class="w3-dropdown-hover">
-<button class="w3-button m2 l2 w3-hover-green w3-center"><a href="produtos.html"><h2>Produtos</h2></button></a>
+<button class="w3-button m1 l2 w3-hover-green w3-center"><a href="produtos.html"><h2>Produtos</h2></button></a>
 <div class="w3-dropdown-content w3-padding">
-<a href="canecas.html" class="w3-bar-item w3-button w3-hover-green">Canecas</a>
-<a href="quadros.html" class="w3-bar-item w3-button w3-hover-green">Quadros</a>
-<a href="squeezes.html" class="w3-bar-item w3-button w3-hover-green">Squeezes</a> 
+	<a href="canecas.html" class="w3-bar-item w3-button w3-hover-green">Canecas</a>
+	<a href="quadros.html" class="w3-bar-item w3-button w3-hover-green">Quadros</a>
+	<a href="squeezes.html" class="w3-bar-item w3-button w3-hover-green">Squeezes</a> 
 </div>
 </div>
-<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="como-comprar.html"><h2>Como comprar</h2></div></a>
-<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="bastidores.html"><h2>Bastidores</h2></div></a>
-<div class="w3-bar-item m2 l2 w3-button w3-hover-green w3-center"><a href="sobre-a-puzzle.html"><h2>Sobre a Puzzle</h2></div></a>
+<div class="w3-bar-item m1 l2 w3-button w3-hover-green w3-center"><a href="como-comprar.html"><h2>Como comprar</h2></div></a>
+<div class="w3-bar-item m1 l2 w3-button w3-hover-green w3-center"><a href="bastidores.html"><h2>Bastidores</h2></div></a>
+<div class="w3-bar-item m1 l2 w3-button w3-hover-green w3-center"><a href="sobre-a-puzzle.html"><h2>Sobre a Puzzle</h2></a>
+</div>
+</div>
+</div>
+</div>
 
-</div>
-</div>
-</div>
-
-<div class="celular w3-hide-large w3-hide-medium">
+<div class="small w3-hide-large">
 
 <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="lista">
 <button onclick="w3_close()" class="w3-bar-item w3-green w3-large">Fechar &times;</button>
@@ -93,7 +84,6 @@ body, h1, h2, a,{
 <a href="bastidores.html" class="w3-bar-item w3-button">Bastidores</a>
 <a href="sobre-a-puzzle.html" class="w3-bar-item w3-button">Sobre a Puzzle</a>
 </div>
-
 <div class="w3-green">
 <button class="w3-button w3-green w3-xlarge" onclick="w3_open()">☰</button>
 <div class="w3-container">
@@ -102,12 +92,12 @@ body, h1, h2, a,{
 
 <div id="logo">
 <br>
-<div class="w3-row w3-mobile w3-hide-large w3-hide-medium">
-<div class="w3-col s12 w3-center"><a href="index.html"><img src="imagens/logo.png" style="width:40%"></a>
+<div class="w3-row w3-mobile w3-hide-large">
+<div class="w3-col s12 w3-center"><a href="index.html"><img src="imagens/logo.png"></a>
 </div>
 </div>
 
-<div class="w3-mobile w3-hide-large w3-hide-medium">
+<div class="w3-mobile w3-hide-large">
 <div id="pesquisa">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -117,15 +107,19 @@ body, h1, h2, a,{
 </form>
 </div> 
 </div>
+<br>
+<br>
+</div>
+</div>
 
 <script src="java/functions.java"></script>
 </div>
 </div>
-
+<br>
 
 <div class="video">
 <iframe src="https://player.vimeo.com/video/652191014?h=872c4846f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Puzzle Shop"></iframe></div>
-<div class="texto-video w3-center w3-text-green w3-fonte"><h1>Fazendo uma caneca</h1></div>
+<div class="texto-video w3-center w3-text-green w3-fonte"><h1><b>VÍDEO INSTITUCIONAL</b></h1></div>
 
 <div class="w3-third w3-col  s4 w3-center">
 <iframe src="https://player.vimeo.com/video/652191014?h=872c4846f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"width="90%" height="90%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Puzzle Shop"></iframe></div>
@@ -136,26 +130,32 @@ body, h1, h2, a,{
 <div class="w3-third w3-col s4 w3-center">
 <iframe src="https://player.vimeo.com/video/652191014?h=872c4846f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"width="90%" height="90%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Puzzle Shop"></iframe></div>
 
-<div class="w3-hide-small w3-center w3-third w3-text-green"><h2>Fazendo uma caneca</h2></div>
-<div class="w3-hide-small w3-center w3-third w3-text-green"><h2>Fazendo uma caneca</h2></div> 
-<div class="w3-hide-small w3-center w3-third w3-text-green"><h2>Fazendo uma caneca</h2></div>
+<div id="espaço-bastidores">
+<div class="w3-hide-small w3-center w3-third w3-text-green"><h2><b>COMO SEU PEDIDO SERÁ EMBALADO</b></h2></div>
+<div class="w3-hide-small w3-center w3-third w3-text-green"><h2><b>CRIANDO UMA ESTAMPA</b></h2></div> 
+<div class="w3-hide-small w3-center w3-third w3-text-green"><h2><b>TUTORIAL DE COMO COMPRAR</b></h2></div>
+</div>
 
 </nav>
 
 <footer class="w3-padding">
 
-<div id="rodape-p">
-<div id="redes-sociais">  
+<div id="rodape">
+<div id="informações">
+<div class="w3-col s9 m4 l4 w3-center"><img src="imagens/puzzle.png" style="width:30%"> </div>
+<div class="w3-col w3-center s9 m4 l4 w3-text-white">
+<h4>Rua Elisa Dina, 56 - Jardim Britânia<br>
+São Paulo - SP<br>
+CNPJ: 91.404.023/0001-17<br><br>
+VIVA DE ARTE!</h4></div>
 </div>
-<div class="w3-col w3-center s4 m4 l4"><img src="imagens/instagram.png" style="width:20%"> </div>
-<div class="w3-col w3-center s4 m4 l4"><img src="imagens/facebook.png" style="width:20%"></div>
-<div class="w3-col w3-center s4 m4 l4"><img src="imagens/twitter.png" style="width:20%"></div>
+<div id="redes-sociais">
+<div class="w3-col s2 m1 l1"><a href="https://www.instagram.com/puzzleshopbr/"target="blank"><img src="imagens/instagram.png" style="width:60%"> </div>
+<div class="w3-col s2 m1 l1"><a href="https://www.facebook.com/puzzleshopbr/"target="blank"><img src="imagens/facebook.png" style="width:60%"></div>
+<div class="w3-col s2 m1 l1"><a href="https://www.twitter.com/puzzleshopbr/"target="blank"><img src="imagens/twitter.png" style="width:60%"></div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
+
 </footer>
 
 </body>
